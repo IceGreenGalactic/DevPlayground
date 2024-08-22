@@ -1,0 +1,26 @@
+// Example SCSS
+$primary-color: #007bff;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: $primary-color;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+#quiz-container .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: auto;
+    padding: 3%;
+
+}
