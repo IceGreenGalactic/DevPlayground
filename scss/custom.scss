@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// Global Styles
+$primary-color: #007bff;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    color: $primary-color;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#quiz-container .card {
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+
+
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+  
+
+  // Primary Button
+  #quiz-container .btn-primary {
+    background-color: #026cad;
+    color: white;
+  }
+  #quiz-container .btn-secondary{
+    background-color: #acb4d4;
+  }
+  #quiz-container .btn-secondary:hover{
+    background-color: #878ca3;
+  }
+  #quiz-container  .btn-primary:hover {
+    background-color: #009dff;
+  }
+  
+
+  
+
+/* For older browsers, custom styling with pseudo-elements */
+#quiz-container .form-check-input {
+ 
+  border: 2px solid #333; // Default border color
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
